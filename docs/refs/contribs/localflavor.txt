@@ -1,0 +1,21 @@
+==========================
+The "local flavor" add-ons
+==========================
+
+.. module:: django.contrib.localflavor
+    :synopsis: A collection of various Django snippets that are useful only for
+               a particular country or culture.
+
+
+
+
+United Kingdom (``uk``)
+=======================
+
+.. class:: uk.forms.UKPhoneNumberField
+
+    A form field that validates input as a UK phone number. Accepts both
+    10 and 9 digit numbers with +44 or 0 prefix. Caters for various common
+    formats and various punctuation options on input.
+
+
